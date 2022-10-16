@@ -1,0 +1,139 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+html{
+   height: 100%;
+   background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+}
+.highlight {
+  background: linear-gradient(95deg, #a1d9d9, #dba4a4);
+  border-radius: 20px;
+  padding: 8px;
+}
+.error {
+  background-color: lightcoral;
+  border-color: red;
+ }
+.contenedor{
+  background: linear-gradient(45deg, #b9ffff, #eeb2b2);
+  position: absolute;
+  height: 350px;
+  width: 450px;       
+  top: calc(50% - 175px);
+  left: calc(50% - 250px);
+  border-radius: 10px;
+  text-align: center;
+  /*box-shadow: 2px 2px 12px, -2px 2px 12px ;*/
+  box-shadow: 1px 5px 19px 5px rgba(212,162,162,0.75);
+  -webkit-box-shadow: 1px 5px 19px 5px rgba(212,162,162,0.75);
+  -moz-box-shadow: 1px 5px 19px 5px rgba(212,162,162,0.75);
+}
+.content1{
+  position: relative;
+  height: 40%;
+}
+.h1-content{
+position: relative;
+top: 20%;
+font-size: 45px;
+}
+.parrafo1{
+  position: relative;
+  top: 20%;
+  font-size: 20px;
+  padding: 6px 30px 6px 30px;
+  text-transform: uppercase;
+  
+}
+span{
+  color: #dc0b0b;
+}
+.content2{
+  position: relative;
+  height: 40%;
+  top: 20%;
+}
+#quote{
+  font-size: 30px;
+}
+.content3{
+  position: relative;
+  background-color: blck;
+  height: 20%;
+}
+#texto-tipeado{
+  width: 200px;
+  height: 40px;
+  text-align: center;
+}
+#inicio{
+  width: 100px;
+  height: 40px;
+}
+
+
+/* Model */
+.model{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: gray;
+  display: none;
+}
+.model-content{
+  position: absolute;
+  height: 350px;
+  width: 450px;       
+  top: calc(50% - 175px);
+  left: calc(50% - 250px);
+  border-radius: 10px;
+  text-align: center;
+  background: #396f25;
+  background: linear-gradient(123deg,#396f25 0%, #16c516 80%);
+  background: -webkit-linear-gradient(123deg,#396f25 0%, #16c516 80%);
+  background: -moz-linear-gradient(123deg,#396f25 0%, #16c516 80%);
+}
+.text-content{
+  position: relative;
+  padding: 40px;
+  font-size: 45px;
+  font-weight: bold;
+}
+.button-content{
+  padding: 5px;
+  position: relative;
+}
+#cerrar{
+  font-size: 25px;
+  width: 100px;
+  height: 40px;
+}
+.puntaje{
+  position: relative;
+  left: 40%;
+  
+  border-radius: 10px;
+  padding: 6px;
+  color: #FFF;
+  font-weight: bold;
+}
+.color{
+  background-image: linear-gradient(
+  335deg,
+  hsl(128deg 37% 25%) 0%,
+  hsl(128deg 43% 27%) 11%,
+  hsl(129deg 49% 29%) 22%,
+  hsl(130deg 55% 31%) 33%,
+  hsl(131deg 61% 33%) 44%,
+  hsl(132deg 68% 34%) 56%,
+  hsl(133deg 74% 36%) 67%,
+  hsl(134deg 80% 38%) 78%,
+  hsl(135deg 86% 40%) 89%,
+  hsl(136deg 92% 42%) 100%
+);
+}
+
+
